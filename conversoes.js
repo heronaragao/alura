@@ -12,3 +12,9 @@ console.log(numeroString + numero);
 // conversão explícita
 console.log(numero + Number(numeroString));
 console.log(String(numero) + numeroString);
+
+// pode usar String(numero) ou numero.toString()
+// se tipo string contendo numero + antes do nome da variável vai converter para número
+let num1="14";
+let num2="71";
+console.log(+ num1 * + num2);
